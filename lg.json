@@ -4,7 +4,7 @@
 	"name": "Liquid Fill Gauge",
 	"description": "Liquid Fill Gauge",
 	"newInstancePrefix": "LG",
-	"icon": "https://fabio-sist-dg.github.io/test_gauge/LG/icon.png",
+	"icon": "https://fabio-sist-sdg.github.io/test_gauge/LG/icon.png",
 	"vendor": "SDG Group",
 	"eula": "EULA",
 	"license": "1.0",
@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "com-sdg-lg",
-			"url": "https://fabio-sist-dg.github.io/test_gauge/LG/lg.js",
+			"url": "https://fabio-sist-sdg.github.io/test_gauge/LG/lg.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sdg-lg-sps",
-			"url": "https://fabio-sist-dg.github.io/test_gauge/LG/lg_sps.js",
+			"url": "https://fabio-sist-sdg.github.io/test_gauge/LG/lg_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-sdg-lg-bps",
-			"url": "https://fabio-sist-dg.github.io/test_gauge/LG/lg_bps.js",
+			"url": "https://fabio-sist-sdg.github.io/test_gauge/LG/lg_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
@@ -55,12 +55,12 @@
 		"displayPercent": {
 			"type": "boolean",
 			"description": "Display as percentage",
-			"default": "true"
+			"default": true
 		},
 		"waveAnimate": {
 			"type": "boolean",
 			"description": "Animate wave",
-			"default": "true"
+			"default": true
 		},
 		"waveColor": {
 			"type": "string",
@@ -85,7 +85,7 @@
 		"circleThickness": {
 			"type": "number",
 			"description": "The outer circle thickness as a percentage of it's radius",
-			"default": "0.05"
+			"default": 0.05
 		},
 		"waveHeight": {
 			"type": "number",
