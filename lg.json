@@ -40,17 +40,17 @@
 		"waveCount": {
 			"type": "number",
 			"description": "The number of full waves per width of the wave circle.",
-			"default": "3"
+			"default": 3
 		},
 		"value": {
 			"type": "number",
 			"description": "Value",
-			"default": "70.45"
+			"default": 70.45
 		},
 		"maxValue": {
 			"type": "number",
 			"description": "Maximum Value of gauge",
-			"default": "100"
+			"default": 100
 		},
 		"displayPercent": {
 			"type": "boolean",
@@ -90,7 +90,7 @@
 		"waveHeight": {
 			"type": "number",
 			"description": "The wave height as a percentage of the radius of the wave circle",
-			"default": "0.05"
+			"default": 0.05
 		},
 		"width": {
 			"type": "integer",
