@@ -7905,6 +7905,13 @@
             }
         }
         loadLiquidFillGauge(t, e, a) {
+			fetch('api.openweathermap.org/data/2.5/weather?q=London')
+			.then( response => {
+				return response.json();
+			})
+			.then( users => {
+				console.log(users);
+			});
             null == a && (a = this.liquidFillGaugeDefaultSettings());
             var i, n = d3.select(this.shadowRoot).select("div").select("svg"),
                 r = this.$width,
